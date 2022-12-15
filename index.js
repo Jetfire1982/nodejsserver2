@@ -14,4 +14,8 @@ app.get("/test", (req, res) => {
     res.send("<h1>Тестовая страница</h1>")
 })
 
+app.get("/test2", (req, res) => {
+    res.send("<h1>Тестовая страница 2</h1>")
+})
+
 app.listen(PORT);
